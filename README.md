@@ -20,14 +20,20 @@ Root Mean Square Propogation (RMSProp): Another modification which we incorporat
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/rmsprop_Gradient_descent_lossfunction.png?raw=true)
 
 Number of iterations:
+To start with, we utilised 10000 iterations in our code to visualise how many iterations it takes for our functions to converge to the optimum under each of the three variant of gradient descent. The first graph illustrates the plain vanilla loss function. We observe it takes very few iterations to converge.
 
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/Plain_vanilla_lossfunction_vs_numiter.png?raw=true)
 
+The second illustrates the momentum loss function. Again, it takes much less than 10000 iterations to converge.
+
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/momentum_lossfunction_vs_numiter.png?raw=true)
+
+Lastly, the RMSProp loss function which happens to take more iterations than the previous two cases, but once again it is much less than 10000.
 
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/rmsprop_lossfunction_vs_numiter.png?raw=true)
 
 How results vary with step size:
+After reducing the number of steps to a much more sensible value of just 100 we get the following graphs.
 
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/Plain_vanilla_lossfunction_vs_stepsize.png?raw=true)
 
