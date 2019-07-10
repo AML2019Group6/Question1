@@ -41,5 +41,10 @@ After reducing the number of steps to a much more sensible value of just 100 we 
 
 ![alt text](https://github.com/AML2019Group6/Question1/blob/master/rmsprop_lossfunction_vs_stepsize.png?raw=true)
 
+We can observe that the graphs for plain vanilla and momentum are quite similar in this case. A huge jump is seen before it reaches a point at which it converges. In the case of RMSProp, we can observe that there is a much more calculated and smoother approach towards reaching the optimum.
+
+Although plain vanilla and momentum do appear to be more efficient in this case, if we had a more complex function such as the six humpcamel function, we would perhaps not have seen such efficiency from the two as opposed to RMSProp.
+
+Overall, RMSProp is more reliable than the other two methods of gradient descent and should be employed over the two.
 
 
